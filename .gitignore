@@ -1,0 +1,29 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node artifacts
+node_modules/
+dist/
+
+# Runtime data, logs and downloaded models
+data/
+*.db
+*.sqlite3
+*.log
+models/cache/
+models/**/*.safetensors
+models/**/*.bin
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
